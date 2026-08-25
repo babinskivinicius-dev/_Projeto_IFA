@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Análise da Deficiência</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LINK PARA PULAR DIRETO AO CONTEÚDO -->
+    <a href="#main-content" class="skip-link">
+        Ir para o conteúdo principal
+    </a>
+
+    <!-- AVISO PARA LEITORES DE TELA -->
+    <div id="a11y-status" class="sr-only" aria-live="polite"></div>
+
+    <!-- BARRA DE ACESSIBILIDADE -->
+    <div class="top-bar">
+
+        <div class="container top-bar-container">
+
+            <span>Acessibilidade Digital</span>
+
+            <div class="accessibility-bar">
+
+                <button id="btn-increase">
+                    A+
+                </button>
+
+                <button id="btn-decrease">
+                    A-
+                </button>
+
+                <button id="btn-contrast">
+                    Alto Contraste
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CABEÇALHO -->
+    <header class="main-header">
+
+        <div class="container header-container">
+
+            <div class="logo">
+
+                <a href="index.html">
+                    <span aria-hidden="true">👁️</span>
+                    A Análise da Deficiência
+                </a>
+
+            </div>
+
+
+            <nav class="main-nav" aria-label="Navegação principal">
+
+                <ul>
+
+                    <li>
+                        <a href="index.html" class="active">
+                            Início
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="deficiencia-visual.html">
+                            Sobre a Deficiência Visual
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#causas">
+                            Causas
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#tecnologias">
+                            Tecnologias
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#videos">
+                            Vídeos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contato">
+                            Contato
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- BANNER PRINCIPAL -->
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <h1>
+                A Análise da Deficiência
+            </h1>
+
+            <p>
+                Compreendendo a deficiência visual, promovendo a inclusão
+                e garantindo a autonomia de todos na sociedade e na web.
+            </p>
+
+            <a href="deficiencia-visual.html" class="btn-primary">
+                Sobre a Deficiência Visual
+            </a>
+
+            <a href="#videos" class="btn-primary">
+                Ver Vídeos
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <main id="main-content" class="container">
+
+
+        <!-- CAUSAS -->
+        <section id="causas" class="content-section">
+
+            <h2>
+                Principais Causas
+            </h2>
+
+            <p class="section-intro">
+
+                A deficiência visual pode possuir diferentes causas.
+                Algumas podem estar presentes desde o nascimento,
+                enquanto outras podem surgir ao longo da vida.
+
+            </p>
+
+
+            <div class="card-grid">
+
+
+                <!-- DOENÇAS -->
+                <article class="card">
+
+                    <div class="card-body">
+
+                        <h3>
+                            Doenças Oculares
+                        </h3>
+
+                        <p>
+                            Conheça doenças que podem afetar a visão,
+                            como catarata, glaucoma, retinopatia e
+                            degeneração macular.
+                        </p>
+
+                        <a href="doencas-oculares.html"
+                           class="btn-secondary">
+
+                            Saiba mais
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- GENÉTICOS -->
+                <article class="card">
+
+                    <div class="card-body">
+
+                        <h3>
+                            Fatores Genéticos
+                        </h3>
+
+                        <p>
+                            Alguns problemas visuais podem estar
+                            relacionados à genética e às condições
+                            presentes desde o nascimento.
+                        </p>
+
+                        <a href="fatores-geneticos.html"
+                           class="btn-secondary">
+
+                            Saiba mais
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- TRAUMAS -->
+                <article class="card">
+
+                    <div class="card-body">
+
+                        <h3>
+                            Traumas e Acidentes
+                        </h3>
+
+                        <p>
+                            Acidentes, lesões e queimaduras podem
+                            provocar alterações temporárias ou
+                            permanentes na visão.
+                        </p>
+
+                        <a href="traumas-acidentes.html"
+                           class="btn-secondary">
+
+                            Saiba mais
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- TECNOLOGIAS -->
+        <section id="tecnologias" class="content-section">
+
+            <h2>
+                Tecnologias Assistivas
+            </h2>
+
+            <p class="section-intro">
+
+                Existem diversas tecnologias e recursos que ajudam
+                pessoas com deficiência visual a estudar, trabalhar,
+                se locomover e utilizar computadores e celulares.
+
+            </p>
+
+
+            <div class="card-grid">
+
+
+                <!-- BRAILLE -->
+                <article class="card">
+
+                    <figure>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?q=80&w=800&auto=format&fit=crop"
+                            alt="Pessoa utilizando recurso relacionado à leitura">
+
+                        <figcaption>
+                            Recursos de leitura e acessibilidade.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <div class="card-body">
+
+                        <h3>
+                            Leitura Tátil
+                        </h3>
+
+                        <p>
+                            O sistema Braille permite que pessoas cegas
+                            realizem a leitura por meio do tato.
+                        </p>
+
+                        <a href="leitura-tatil.html"
+                           class="btn-secondary">
+
+                            Saiba mais
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- MOBILIDADE -->
+                <article class="card">
+
+                    <figure>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
+                            alt="Pessoa utilizando recurso de assistência">
+
+                        <figcaption>
+                            Recursos de mobilidade e orientação.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <div class="card-body">
+
+                        <h3>
+                            Mobilidade
+                        </h3>
+
+                        <p>
+                            Bengalas, cães-guia, pisos táteis e outras
+                            ferramentas ajudam na locomoção.
+                        </p>
+
+                        <a href="mobilidade.html"
+                           class="btn-secondary">
+
+                            Saiba mais
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- VÍDEOS -->
+        <section id="videos" class="content-section">
+
+            <h2>
+                Vídeos
+            </h2>
+
+            <p class="section-intro">
+
+                Confira os vídeos dos experimentos realizados
+                durante o projeto.
+
+            </p>
+
+
+            <div class="video-grid">
+
+
+                <!-- VÍDEO 1 -->
+                <article class="video-card">
+
+                    <h3>
+                        Vídeo 1
+                    </h3>
+
+                    <video controls preload="metadata">
+
+                        <source
+                            src="videos/video1.mp4"
+                            type="video/mp4">
+
+                        Seu navegador não suporta vídeos.
+
+                    </video>
+
+                    <p>
+                        Sinalização com cores, usando LED RGB.
+                    </p>
+
+                </article>
+
+
+
+                <!-- VÍDEO 2 -->
+                <article class="video-card">
+
+                    <h3>
+                        Vídeo 2
+                    </h3>
+
+                    <video controls preload="metadata">
+
+                        <source
+                            src="videos/video2.mp4"
+                            type="video/mp4">
+
+                        Seu navegador não suporta vídeos.
+
+                    </video>
+
+                    <p>
+                        Demonstração do segundo experimento.
+                    </p>
+
+                </article>
+
+
+
+                <!-- VÍDEO 3 -->
+                <article class="video-card">
+
+                    <h3>
+                        Vídeo 3
+                    </h3>
+
+                    <video controls preload="metadata">
+
+                        <source
+                            src="videos/video3.mp4"
+                            type="video/mp4">
+
+                        Seu navegador não suporta vídeos.
+
+                    </video>
+
+                    <p>
+                        Demonstração do terceiro experimento.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTATO -->
+        <section id="contato" class="content-section">
+
+            <h2>
+                Contato
+            </h2>
+
+            <div class="contact-card">
+
+                <h3>
+                    🏫 Colégio Estadual Tancredo Neves
+                </h3>
+
+                <address>
+
+                    <p>
+                        📍 Rua Ernesto Fontanive, 310 -
+                        Bairro União
+                    </p>
+
+                    <p>
+                        🏙️ São João - PR
+                    </p>
+
+                    <p>
+                        📞
+                        <a href="tel:4635331407">
+                            (46) 3533-1407
+                        </a>
+                    </p>
+
+                </address>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- RODAPÉ -->
+    <footer class="main-footer">
+
+        <p>
+            © 2026 A Análise da Deficiência -
+            Colégio Estadual Tancredo Neves.
+        </p>
+
+        <p>
+            Desenvolvido com foco em acessibilidade.
+        </p>
+
+    </footer>
+
+
+
+    <!-- VLIBRAS -->
+
+    <div vw class="enabled">
+
+        <div vw-access-button class="active"></div>
+
+        <div vw-plugin-wrapper>
+
+            <div class="vw-plugin-top-wrapper"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+    <script>
+
+        new window.VLibras.Widget(
+            'https://vlibras.gov.br/app'
+        );
+
+    </script>
+
+
+    <!-- JAVASCRIPT DO SITE -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
